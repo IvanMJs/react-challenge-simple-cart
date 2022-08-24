@@ -10,19 +10,19 @@ const productReducer = (state: any, action: any) => {
 
     switch (type) {
         case "ADD_PRODUCT":
-            // console.log("ADD_PRODUCT", payload)
+            console.log("ADD_PRODUCT", payload)
             return {
                 ...state,
                 products: payload.product
             }
         case "REMOVE_PRODUCT":
-            // console.log("REMOVE_PRODUCT", payload)
+            console.log("REMOVE_PRODUCT", payload)
             return {
                 ...state,
                 products: payload.product
             }
         case "UPDATE_PRODUCT":
-            // console.log("UPDATE_PRODUCT", payload)
+           console.log("UPDATE_PRODUCT", payload)
             return {
                 ...state,
                 total: payload.total
